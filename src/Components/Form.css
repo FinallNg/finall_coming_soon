@@ -1,0 +1,9 @@
+/* This will contain the styling for the Input and Submit Button */
+
+.landing-subscribe-form input {
+    display: block;
+}
+
+.landing-subscribe-form button {
+    background-color: rgb(214, 214, 18);
+}
