@@ -5,7 +5,9 @@ const Form = () => {
     <div className='form-box'>
         <form>
             <input type='email' name='email' placeholder='Email Adress' required></input>
-            hhhhhh
+            <div>
+            <input type='no' name='submit'></input>
+            </div>
         </form>
     </div>
   )
