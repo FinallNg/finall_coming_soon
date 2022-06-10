@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Mailchimp from 'react-mailchimp-form'
 import './Form.css'
 
