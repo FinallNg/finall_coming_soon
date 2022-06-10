@@ -2,6 +2,7 @@
 
 .landing-subscribe-form input {
     display: block;
+    margin: 5px auto;
 }
 
 .landing-subscribe-form button {
