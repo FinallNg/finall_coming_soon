@@ -5,12 +5,13 @@ import './Form.css'
 const Form = () => {
   return (
     <div className='form-box'>
-        <form>
+        {/* We don't need a manul form to sign up for our newsletter since we are using Mailchimp, that is why I comment it out. */}
+        {/* <form>
             <input type='email' name='email' placeholder='Email Adress' required></input>
             <div>
             <input type='no' name='submit'></input>
             </div>
-        </form>
+        </form> */}
 
         <Mailchimp
             action={process.env.REACT_APP_MAILCHIMP_URL}
