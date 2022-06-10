@@ -1,10 +1,36 @@
 /* This will contain the styling for the Input and Submit Button */
-
+.landing-subscribe-form{
+        background-image: url(./image/photo1654869383.jpeg);
+        height:100vh;
+}
 .landing-subscribe-form input {
     display: block;
     margin: 5px auto;
+    width:50%;
+    height:6%;
+    position: relative;
+    top:50%;
+    border-radius:3px;
+    border:none;
+}
+.landing-subscribe-form input:focus{
+    outline:none;
+}
+.landing-subscribe-form .placeholder{
+    position: absolute;
 }
 
 .landing-subscribe-form button {
     background-color: rgb(214, 214, 18);
+    position:relative;
+    top:51%;
+    font-size:16px;
+    border:none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 40px;
+    width:200px;
+    border-radius:3px;
+    
 }
