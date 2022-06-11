@@ -5,7 +5,7 @@ import './Form.css'
 const Form = () => {
   return (
     <div className='form-box'>
-        {/* We don't need a manul form to sign up for our newsletter since we are using Mailchimp, that is why I comment it out. */}
+        {/* We don't need a manual form to sign up for our newsletter since we are using Mailchimp, that is why I comment it out. */}
         {/* <form>
             <input type='email' name='email' placeholder='Email Adress' required></input>
             <div>
