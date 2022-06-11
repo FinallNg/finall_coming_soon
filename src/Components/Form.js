@@ -1,5 +1,7 @@
 import React from 'react';
 import Mailchimp from 'react-mailchimp-form'
+import Github from '../assets/github.png'
+import twitter from '../assets/twitter.png'
 import './Form.css'
 
 const Form = () => {
@@ -39,6 +41,15 @@ const Form = () => {
             // Add a personalized class
             className='landing-subscribe-form' // Class name on the form
         />
+        <div className= 'i-icons'>
+                 <a href= 'https://github.com/FinallNg/finall_frontend'>
+                 <img src = {Github} alt= "" />
+                 </a>
+                 <a href= 'https://twitter.com/Finall_ng?t=BHC-VUL1xv-_mJYaeX-pPA&s=09'>
+                     <img src = {twitter} alt = "" />
+                 </a>
+
+             </div>
     </div>
   )
 }

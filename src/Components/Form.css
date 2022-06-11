@@ -1,7 +1,13 @@
 /* This will contain the styling for the Input and Submit Button */
 .landing-subscribe-form{
         background-image: url(./image/photo1654869383.jpeg);
+        position: relative;
         height:100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: auto;
+        padding: 50px;
 }
 .landing-subscribe-form input {
     display: block;
@@ -27,10 +33,28 @@
     font-size:16px;
     border:none;
     text-align: center;
-    text-decoration: none;
+    text-decoration:none;
     display: inline-block;
     padding: 14px 40px;
     width:200px;
-    border-radius:3px;
+    border-radius:34px;
     cursor: pointer;
+}
+
+.i-icons>*{
+    transform: scale(0.5);
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
+.i-icons{
+    position: relative;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+    background-color: blue;
+    border: none;
+    justify-content: center;
 }
