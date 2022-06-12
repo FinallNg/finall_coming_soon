@@ -1,11 +1,11 @@
 import React from 'react';
 import Mailchimp from 'react-mailchimp-form'
 import './Form.css'
-import {RiFacebookCircleFill} from "react-icons/ri"
-import {BsPinterest} from "react-icons/bs"
-import {SiYoutubemusic} from "react-icons/si"
-import{AiFillTwitterCircle} from "react-icons/ai"
-import{GiRocketThruster} from "react-icons/gi"
+import finall from '../assets/finall.png'
+import { SiFacebook } from 'react-icons/si';
+import {SiInstagram} from "react-icons/si"
+import {SiLinkedin} from "react-icons/si"
+import { SiTwitter } from 'react-icons/si';
 import { IconContext } from "react-icons";
 const Form = () => {
   return (
@@ -47,16 +47,14 @@ const Form = () => {
             className='landing-subscribe-form' // Class name on the form
         />
 <div className='top-icon'>
-        <IconContext.Provider value={{ className: "top-react-icon", }}>
-            <GiRocketThruster color="white" />
-        </IconContext.Provider>
+<img src = {finall} alt="" />
 </div>
         <div className="footer-icons">
         <IconContext.Provider value={{ className: "bottom-react-icons", }}>
-        <RiFacebookCircleFill color ="#0080ff" />  
-        <BsPinterest color ="red"/>
-        <AiFillTwitterCircle color = "#ffffff" />
-        <SiYoutubemusic color= "#ff471a" />
+        <SiFacebook color ="#0080ff" />  
+        <SiTwitter color = "#0080ff" />
+        <SiLinkedin color = "#0080ff" />
+        <SiInstagram color= "#0080ff" />
         </IconContext.Provider>
         </div>   
         </div>
