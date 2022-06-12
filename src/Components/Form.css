@@ -45,7 +45,8 @@
     font-size: 5rem;
 }
 .landing-subscribe-form button {
-    background-color: rgb(214, 214, 18);
+    background-color: #0000ff;
+    color:white;
     position:relative;
     top:51%;
     font-size:16px;
