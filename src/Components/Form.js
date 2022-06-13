@@ -49,12 +49,31 @@ const Form = () => {
 <div className='top-icon'>
 <img src = {finall} alt="" />
 </div>
+
+<div>
+
+        <div className="main-container">
+          <h1>We are coming soon...</h1>
+          <p>We are almost there! If you want to get notified when the website goes live,
+            subscribe to our mailing list and kindly follow us on all our social media handles.
+          </p>
+        </div>
+
+    </div>
+
+
         <div className="footer-icons">
         <IconContext.Provider value={{ className: "bottom-react-icons", }}>
         <SiFacebook color ="#0080ff" />  
+        <a href='https://twitter.com/Finall_ng?t=a2-Xzu_kekJpdvos2gGZ4A&S=09'>
         <SiTwitter color = "#0080ff" />
+        </a>
+        <a href='https://www.linkedin.com/company/finall-company'>
         <SiLinkedin color = "#0080ff" />
+        </a>
+        <a href = "https://instagram.com/finall_ng?igshid=YmMyMTA2M2Y">
         <SiInstagram color= "#0080ff" />
+        </a>
         </IconContext.Provider>
         </div>   
         </div>

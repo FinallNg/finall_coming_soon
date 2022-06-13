@@ -1,4 +1,27 @@
 /* This will contain the styling for the Input and Submit Button */
+.main-cointainer{
+    background-size: cover;
+    position:absolute;
+    bottom:120px;
+    left:538px;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    display: block;
+}
+
+.h1{
+    color: #0080ff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.main-cointainer> p{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 .landing-subscribe-form{
         background-image: url(./image/photo1654990529.jpeg);
         position: relative;
@@ -29,14 +52,12 @@
 
 .footer-icons{
     position:absolute;
-    bottom:130px;
+    bottom:120px;
     left:538px;
     text-align: center;
+    cursor: pointer;
 }
 
-.footer-icons>* :hover{
-    cursor:pointer;
-}
 
 .bottom-react-icons{
     font-size: 3rem;
