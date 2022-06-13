@@ -64,7 +64,9 @@ const Form = () => {
 
         <div className="footer-icons">
         <IconContext.Provider value={{ className: "bottom-react-icons", }}>
+          <a href = 'https://facebook.com/Finall-105970278816907/'>
         <SiFacebook color ="#0080ff" />  
+          </a>
         <a href='https://twitter.com/Finall_ng?t=a2-Xzu_kekJpdvos2gGZ4A&S=09'>
         <SiTwitter color = "#0080ff" />
         </a>

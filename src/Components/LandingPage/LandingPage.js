@@ -25,7 +25,7 @@ function LandingPage() {
         <footer>
             <IconContext.Provider value={{ className: "bottom-react-icons", }}>
 
-                <a href='https://facebook.com' target='_blank' rel="noreferrer">
+                <a href='https://facebook.com/Finall-105970278816907/' target='_blank' rel="noreferrer">
                     <SiFacebook color ="#0080ff" />
                 </a>
 
