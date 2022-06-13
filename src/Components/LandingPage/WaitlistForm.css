@@ -1,0 +1,51 @@
+/* This will contain the styling for the Input and Submit Button */
+.waitlist-subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin: 25px auto; */
+}
+
+.waitlist-subscribe-form input {
+    /* display: block;
+    margin: 5px auto; */
+    width: 100%;
+    max-width: 500px;
+    /* height:6%; */
+    /* position: relative;
+    top:50%; */
+    border-radius: 5px;
+    border:none;
+    padding: 20px 10px 10px;
+    color: rgb(12, 12, 212);
+    font-size: 16px;
+    text-align: center;
+}
+
+.waitlist-subscribe-form input:focus{
+    outline: none;
+}
+
+.waitlist-subscribe-form input::placeholder{
+    color: rgb(41, 15, 156);
+}
+
+.waitlist-subscribe-form button {
+    border-radius: 5px;
+    border: none;
+    background-color: #0080ff;
+    color: white;
+    padding: 15px 50px;
+    max-width: 200px;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.waitlist-subscribe-form .msg-alert {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
