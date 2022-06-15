@@ -6,11 +6,15 @@ import { SiTwitter } from 'react-icons/si';
 import { IconContext } from "react-icons";
 import Form from './WaitlistForm';
 import './LandingPage.css';
+import Faqs from '../Faqs';
+
+
 
 
 function LandingPage() {
   return (
     <div className='landing-page'>
+       
         <header>
             {/* <img src = {} alt="" /> */}
             <img src={FinallLogo} alt="Finall Logo" />
@@ -43,6 +47,7 @@ function LandingPage() {
 
             </IconContext.Provider>
         </footer> 
+        <Faqs />
     </div>
   )
 }

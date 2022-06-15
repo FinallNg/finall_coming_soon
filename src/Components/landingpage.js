@@ -1,10 +1,14 @@
 import React from 'react'
 
+
 const landingpage = () => {
   return (
-    <div>We are coming soon...</div>
+    <div>We are coming soon...
 
-    
+      
+    </div>
+
+   
   )
   
 }
