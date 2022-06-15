@@ -19,25 +19,22 @@ const Faqs = () => {
             WHO USES FINALL?
         </h3>
         <p>
-            Basically, its for everyone that wants to be in control of  their finances. Individuals, Entrepreneurs, and of course  organizations.  Most people are unaware of the advantages and needs to   evaluate their finance.  Finall helps in preparing and presenting a financial  dashboard that helps you to stand out and have an edge  over other competitors as a business person. It also  boosts the overall confidence o the team members and  the advisory team
+            Basically, its for everyone that wants to be in control of  their finances. Individuals, Entrepreneurs, and of course  organizations.  
+        </p>
+       
+        <h3>
+        WHAT DO I BENEFIT FROM USING FINALL?
+        </h3>
+        <p>
+        Finall helps in preparing and presenting a financial dashboard that ensures you stand out and have an edge above your peers or competitors. It also boosts the overall confidence of the team members and the advisory team in a company when they know their financial standing and can track organisational growth.
         </p>
         
-
         <h3>
             CAN I CHANGE THE BACKGROUND/THEME ON MY DASHBOARD?
         </h3>
         <p>
-            yes, go to settings click on the theme button, and change  to dark, Light ,or custom.
+        Yes, go to settings, click on the theme button, and change to available theme of your choice.
         </p>
-
-
-        <h3>
-            HOW DO INSTALL THE APP?
-        </h3>
-        <p>
-            Visit our website at www.finall.ng nd click on the  download button.  OR  Go to Google Play Store for Android or App Store for iOS and search for Finall.
-        </p>
-
 
         <h3>
             HOW TO I CONTACT SUPPORT?
@@ -45,9 +42,6 @@ const Faqs = () => {
         <p>
             Click on the chat icon on your dashboard and send us a  message, someone is always there to answer you.
         </p>
-       
-
-
     </div>
   )
 }
