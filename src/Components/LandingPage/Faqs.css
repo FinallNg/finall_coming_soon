@@ -1,0 +1,21 @@
+.faqs {
+    max-width: 500px;
+}
+
+.faqs h2 {
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.faqs h3 {
+    margin: 25px 0px 10px;
+}
+
+.faqs p {
+    line-height: 25px;
+    word-spacing: 2px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e6e6e6;
+}

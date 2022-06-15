@@ -6,7 +6,7 @@ import { SiTwitter } from 'react-icons/si';
 import { IconContext } from "react-icons";
 import Form from './WaitlistForm';
 import './LandingPage.css';
-import Faqs from '../Faqs';
+import Faqs from './Faqs';
 
 
 
@@ -25,6 +25,8 @@ function LandingPage() {
         </header>
 
         <Form />
+
+        <Faqs />
 
         <footer>
             <IconContext.Provider value={{ className: "bottom-react-icons", }}>
@@ -47,7 +49,9 @@ function LandingPage() {
 
             </IconContext.Provider>
         </footer> 
-        <Faqs />
+
+        
+        
     </div>
   )
 }
