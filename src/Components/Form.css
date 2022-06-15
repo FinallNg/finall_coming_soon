@@ -1,13 +1,37 @@
 /* This will contain the styling for the Input and Submit Button */
+.main-cointainer{
+    background-size: cover;
+    position:absolute;
+    bottom:120px;
+    left:538px;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    display: block;
+}
+
+.h1{
+    color: #0080ff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.main-cointainer> p{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 .landing-subscribe-form{
-        background-image: url(./image/photo1654869383.jpeg);
+        background-image: url(./image/photo1654990529.jpeg);
         position: relative;
-        height:100vh;
+        height:85vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         margin: auto;
         padding: 50px;
+        display:block
 }
 .landing-subscribe-form input {
     display: block;
@@ -26,8 +50,32 @@
     position: absolute;
 }
 
+.footer-icons{
+    position:absolute;
+    bottom:120px;
+    left:538px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.bottom-react-icons{
+    font-size: 3rem;
+    padding:10px
+}
+.top-icon{
+    transform: scale(0.2);
+    position:absolute;
+    bottom:1000px;
+    right:448px;
+    top:50px;
+}
+.top-react-icon{
+    font-size: 5rem;
+}
 .landing-subscribe-form button {
-    background-color: rgb(214, 214, 18);
+    background-color: #0080ff;
+    color:white;
     position:relative;
     top:51%;
     font-size:16px;
@@ -37,7 +85,7 @@
     display: inline-block;
     padding: 14px 40px;
     width:200px;
-    border-radius:34px;
+    border-radius:3px;
     cursor: pointer;
 }
 
@@ -45,16 +93,3 @@
     transform: scale(0.5);
 }
 
-.i-icons>*:hover{
-    cursor: pointer;
-}
-
-.i-icons{
-    position: relative;
-    margin: auto;
-    margin-top: 0px;
-    display: flex;
-    background-color: blue;
-    border: none;
-    justify-content: center;
-}
