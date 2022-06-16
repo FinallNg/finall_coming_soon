@@ -41,4 +41,8 @@ footer {
     height: 30px;
 }
 
-    
+@media (max-width: 600px) {
+    header {
+        width: 80%;
+    }
+}
