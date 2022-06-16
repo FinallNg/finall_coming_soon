@@ -10,8 +10,14 @@ const Form = () => {
             //Adding multiple fields:
             fields={[
                 {
+                    name: 'FNAME',
+                    placeholder: 'Your Name',
+                    type: 'text',
+                    required: true
+                },
+                {
                 name: 'EMAIL',
-                placeholder: 'Email Address',
+                placeholder: 'Your Email Address',
                 type: 'email',
                 required: true
                 }

@@ -10,8 +10,9 @@
 
 .waitlist-subscribe-form input {
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     border-radius: 5px;
+    margin-bottom: 20px;
     border:none;
     padding: 20px;
     color: rgb(12, 12, 212);
@@ -43,4 +44,10 @@
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+    .waitlist-subscribe-form {
+        width: 80%;
+    }
 }

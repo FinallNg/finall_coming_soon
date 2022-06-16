@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 550px;
+   /* min-height: 550px;*/
 }
 
 header img {
@@ -28,9 +28,21 @@ header p {
 
 footer {
     color: white;
+    font-size: 16px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: auto;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 25px;
 }
-    
+
+.bottom-react-icons {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 600px) {
+    header {
+        width: 80%;
+    }
+}
