@@ -35,7 +35,7 @@ function LandingPage() {
                     <SiFacebook color ="#0080ff" />
                 </a>
 
-                <a href='https://twitter.com/Finall_ng' target='_blank' rel="noreferrer">
+                <a href='https://twitter.com/official_finall' target='_blank' rel="noreferrer">
                     <SiTwitter color = "#0080ff" />
                 </a>
 
