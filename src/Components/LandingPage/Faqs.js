@@ -46,7 +46,7 @@ const Faqs = () => {
 
             <div className='each-faq'>
                 <h3>
-                    HOW TO I CONTACT SUPPORT?
+                    HOW DO I CONTACT SUPPORT?
                 </h3>
                 <p>
                     Click on the chat icon on your dashboard and send us a  message, someone is always there to answer you.

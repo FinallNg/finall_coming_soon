@@ -10,6 +10,7 @@
 .faqs h3 {
     margin: 25px 0px 10px;
     font-size: 25px;
+    text-transform: uppercase;
 }
 
 .faqs p {
