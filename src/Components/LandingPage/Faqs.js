@@ -22,7 +22,7 @@ const Faqs = () => {
                     WHO USES FINALL?
                 </h3>
                 <p>
-                    Basically, its for everyone that wants to be in control of  their finances. Individuals, Entrepreneurs, and of course  organizations.  
+                    Basically, it's for everyone that wants to be in control of  their finances. Individuals, Entrepreneurs, and of course  organizations.  
                 </p>  
             </div>
 
